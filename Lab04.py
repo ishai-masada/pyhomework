@@ -6,7 +6,7 @@ def name_reverse(name):
     name = name.split()
     name.reverse()
     print(", ".join(name))
-    
+
 def nameReverse():
     num_names = int(input("Type in the number of names you want to be reversed: "))
     print(f'num names: {num_names}')
